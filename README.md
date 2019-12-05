@@ -6,6 +6,8 @@ A simple role for deploying and configuring [Redisearch](https://oss.redislabs.c
 Usage
 -----
 
+This role assumes Docker is running and configured for Ansible on the hosts your are deploying this role on. You might check out Jeff Geerling's [Docker role](https://github.com/geerlingguy/ansible-role-docker) to set this up.
+
 Clone this repo into your roles directory:
 
     $ git clone https://github.com/emielmolenaar/ansible-role-docker-redisearch.git roles/docker-redisearch
