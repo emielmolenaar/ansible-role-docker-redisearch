@@ -1,0 +1,10 @@
+---
+
+- name: "[docker] Ensure the redisearch docker container is present"
+  docker_container:
+    name: "{{ docker_redisearch_container_name }}"
+    image: "{{ docker_redisearch_image }}:{{ docker_redisearch_tag }}"
+    state: started
+    restart: yes
+    restart_policy: unless-stopped
+    ports: "{{ docker_redisearch_ports }}"

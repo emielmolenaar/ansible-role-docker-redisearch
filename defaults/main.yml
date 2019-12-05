@@ -1,0 +1,6 @@
+---
+
+docker_redisearch_ports: "6379:6379"
+docker_redisearch_image: "redislabs/redisearch"
+docker_redisearch_tag: "latest"
+docker_redisearch_container_name: redisearch
